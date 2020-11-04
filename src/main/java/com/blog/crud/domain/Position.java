@@ -10,6 +10,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 import javax.validation.constraints.NotBlank;
 
+@SuppressWarnings("serial")
 @Entity
 @Table(name = "position")
 public class Position implements Serializable{

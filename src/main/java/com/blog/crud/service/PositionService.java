@@ -1,15 +1,13 @@
 package com.blog.crud.service;
 
 import java.util.List;
-
 import javax.validation.Valid;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.RequestBody;
-
 import com.blog.crud.domain.Position;
-import com.formy.formyserver.repository.PositionRepository;
+import com.blog.crud.repository.PositionRepository;
 
 @Service
 public class PositionService {
