@@ -39,7 +39,7 @@ public class PositionController {
 		return positionService.createPosition(position);
 	}
 	
-	//Get a Single Ingredient
+	//Get a Single Position
 	@GetMapping("/getPosition/{id}")
 	public Position getPositionById(@PathVariable (value = "id") Long positionId) {
 		return positionService.getPositionById(positionId);
